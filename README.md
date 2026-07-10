@@ -25,3 +25,8 @@ This project uses AI-assisted development with Cursor AI following the guideline
 ## 📝 Git Workflow
 
 This project follows the Conventional Commits specification for commit messages.
+## 🎯 Learning Goals
+
+- Learn AI-assisted software development
+- Build production-ready frontend applications
+- Follow professional Git workflows
