@@ -49,3 +49,7 @@ Before generating code:
 ## Project Goal
 
 Build a modern AI-powered frontend following professional engineering practices.
+## Testing
+
+- Test code before committing.
+- Prefer reusable and maintainable components.
