@@ -53,3 +53,19 @@ Build a modern AI-powered frontend following professional engineering practices.
 
 - Test code before committing.
 - Prefer reusable and maintainable components.
+## Project Rules Learned
+
+### Rule 1
+Always begin implementation by creating a short plan before writing code.
+
+### Rule 2
+Keep presentation and logic separate. Use external CSS files instead of inline styles whenever possible.
+
+### Rule 3
+Accessibility is part of the implementation, not an afterthought. Include labels, keyboard support, and appropriate ARIA attributes by default.
+
+### Rule 4
+Request verification after code generation. AI should review its own implementation, identify edge cases, and generate tests whenever appropriate.
+
+### Rule 5
+Review AI-generated code before committing. Never assume the first response is production-ready.
