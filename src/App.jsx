@@ -1,7 +1,7 @@
-import SettingsForm from "./SettingsForm";
+import CareerChat from "./components/CareerChat";
 
 function App() {
-  return <SettingsForm />;
+  return <CareerChat />;
 }
 
 export default App;
