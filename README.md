@@ -58,3 +58,41 @@ Required environment variable:
 
 ```env
 GOOGLE_GENERATIVE_AI_API_KEY=your_api_key
+
+
+## Deployment & Operations Checklist
+
+Before each production deployment:
+
+- [x] Tests pass
+- [x] Production build succeeds
+- [x] Environment variables configured in Vercel
+- [x] API key kept server-side
+- [x] Responsive UI checked
+- [x] AI streaming tested
+- [x] Error/loading states checked
+- [x] Lighthouse audit completed
+- [x] Accessibility issue identified and improved
+- [x] Live deployment verified
+
+### Safe Failure
+
+If the AI service is unavailable or an API request fails, the application should show an error state rather than silently failing.
+
+### Rollback
+
+Vercel keeps previous deployments available. If a new production deployment introduces a critical issue, the previous known-good deployment can be restored.
+
+### Monitoring
+
+Production deployments can be monitored through the Vercel deployment dashboard and deployment logs.
+
+## Reflection
+
+This project helped me understand how a frontend application can integrate a real AI capability instead of using AI only as a visual feature.
+
+One of the biggest learning areas was streaming AI responses and handling loading, stopping, scrolling, and error states around an asynchronous AI interaction.
+
+I also improved my understanding of production readiness through testing, accessibility auditing, performance testing, environment-variable security, Git workflows, and Vercel deployment.
+
+A future version could include authentication, saved conversations, career-specific learning roadmaps, job-market data, and downloadable career reports.
