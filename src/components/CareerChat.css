@@ -277,13 +277,11 @@
   background: #111827;
   color: white;
 }
-
 .input-hint {
   margin: 7px 4px 0;
   font-size: 11px;
-  color: #9ca3af;
+  color: #4b5563;
 }
-
 @media (max-width: 600px) {
   .career-chat {
     width: 100%;
